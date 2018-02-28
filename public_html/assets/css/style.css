@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  font: 300 14px/1.4 Lato, Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.tabs {
+  margin: 25px 0;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px; }
+
+.tabs__labels {
+  margin: 0;
+  padding: 0; }
+
+.tabs__labels li {
+  display: inline-block; }
+
+.tabs__labels li a {
+  padding: 8px 12px;
+  display: block;
+  color: #444;
+  text-decoration: none;
+  border-bottom: 2px solid #f5f5f5; }
+
+.tabs__labels li a.active {
+  border-bottom-color: #337ab7; }
+
+.tabs__content {
+  padding: 25px; }
+
+table {
+  font-size: 14px;
+  font-family: Lato, Arial, sans-serif; }
+  table button {
+    display: inline-block;
+    margin: 0 5px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important; }
+  table tr th {
+    font-weight: 500;
+    color: #337ab7;
+    text-align: center;
+    text-shadow: whte; }
+    table tr th:hover {
+      cursor: pointer; }
+  table input {
+    padding: 0 5px !important;
+    border: 1px solid #ddd; }
+
+.form-group label {
+  font-weight: normal !important; }
+
+.form-group .btn {
+  margin-right: 15px; }
